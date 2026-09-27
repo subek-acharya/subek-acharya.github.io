@@ -61,5 +61,15 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  # Hugo 0.165+ removed tailwindcss from the default exec allowlist.
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^go$'
+      - '^npx$'
+      - '^git$'
+      - '^node$'
+      - '^postcss$'
+      - '^tailwindcss$'
 sitemap:
   _merge: deep
