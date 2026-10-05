@@ -7,8 +7,9 @@ type: landing
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: A selection of research and engineering projects spanning adversarial machine learning, AI security, large language models, and explainable AI.
+      count: 0
       filters:
         folders:
           - projects

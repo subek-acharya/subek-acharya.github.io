@@ -2,115 +2,217 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Subek Acharya
+  given: Subek
+  family: Acharya
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+# status:
+#   icon: "🔬"
+role: AI/ML Engineer and Researcher
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Computer Engineer and AI Researcher specializing in adversarial machine
+  learning and AI security with experience in training and evaluating ML
+  models, building production-grade ETL pipelines, and deploying AI systems.
+  Skilled problem solver with a proven ability to work independently and
+  collaboratively across engineering, research, and academic environments to
+  deliver impactful solutions.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Rhode Island
+    url: https://www.uri.edu/
+  - name: RSAIL Lab
+    url: https://web.uri.edu/rsail/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:subekacharya@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/subek-acharya
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/subek-acharya/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=_L0AbVIAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0006-0621-7085
 
 interests:
+  - Adversarial Machine Learning
+  - AI Security & Robustness
+  - Deep Learning & Computer Vision
   - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Explainable AI
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS in Computer Science
+    institution: University of Rhode Island
+    start: 2024-09-01
+    end: 2026-12-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Relevant coursework: Machine Learning, Neural Networks and Deep
+      Learning, Topics in Large Language Models, Machine Learning Security &
+      Privacy, Machine Learning Evaluation and Explanation. Conducting research
+      in adversarial machine learning at the RSAIL Lab under Dr. Kaleel Mahmood.
+  - degree: Bachelor of Engineering in Computer Engineering
+    institution: Tribhuvan University
+    start: 2013-12-01
+    end: 2017-10-31
+    summary: |
+      Relevant coursework: Object-Oriented Programming, Data Structures and
+      Algorithms, Database Management Systems, Operating Systems, Computer
+      Networks, Software Engineering.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Graduate Research Assistant
+    org: RSAIL, University of Rhode Island
+    start: 2025-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Collaborated with the Voting Technology Center at the University of
+        Connecticut on adversarial security research in the election domain
+      - Conducted large-scale experiments on the Unity HPC Platform, managing
+        distributed training jobs using the SLURM workload manager across
+        multi-node GPU clusters
+      - Trained and benchmarked diverse model architectures including Residual
+        Networks, VGG Networks, Class-Attention Transformers, Support Vector
+        Machines, Spiking Neural Networks, Prototype Networks, State Space
+        Models, and Vision Transformers on UConn Bubbles ballot and MVTec/VisA
+        industrial defect datasets
+      - Developed Project Black: a multi-norm black-box adversarial attack
+        framework benchmarking 11 black-box and five transfer-based white-box
+        attacks across ℓ∞, ℓ2, ℓ1, and ℓ0 perturbation norms on digital and
+        physical threat domains
+      - Curated an adversarial evaluation dataset of 32,000 printed and scanned
+        adversarial ballot examples to evaluate real-world physical attack
+        effectiveness
+      - Authored 3 research papers (1 first-authored accepted to IEEE PAINE
+        2026, 2 under review) on adversarial robustness of AI systems in
+        election and industrial defect detection domains
+  - role: Graduate Assistant
+    org: ITS Teaching and Learning Services, University of Rhode Island
+    start: 2025-06-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Automated TLS Data Report generation using OpenCode with Claude Opus 4.7
+        inference, leveraging Python's Matplotlib library and LaTeX to produce
+        structured, publication-ready reports
+      - Developed custom Brightspace Adoption Dashboard by engineering an ETL
+        pipeline to ingest D2L CSV exports into a SQL database and visualizing
+        platform adoption metrics in Power BI for IT leadership, delivering
+        analytics capabilities equivalent to Brightspace Performance+ tier and
+        saving $50,000+/year in licensing costs
+      - Led technical implementation and platform management of Webex Events
+        (Socio) for virtual seminars Tech Day 2025 & Tech Day 2026, onboarding
+        the platform for the first time at URI with 150+ participants from 15+
+        institutions on each event
+      - Provided technical support to faculty on Brightspace LMS by resolving
+        service requests through ServiceNow ticketing system
+  - role: Graduate Teaching Assistant
+    org: Department of Computer Science and Statistics, University of Rhode Island
+    start: 2025-01-01
+    end: 2025-05-31
+    summary: |
+      - Led weekly class sessions and office hours for 60+ students for courses
+        CSC 200E: Computer Problem Solving for Science and Engineering and
+        CSC 212: Data Structures and Abstractions, providing tutoring and
+        grading assignments
+  - role: Graduate Assistant
+    org: URI Health Services, University of Rhode Island
+    start: 2024-10-01
+    end: 2025-01-31
+    summary: |
+      - Configured and deployed online appointment system within the Medicat
+        Patient Portal (college health EHR platform), shifting 80% of bookings
+        to digital and reducing triage staff scheduling workload by an estimated
+        3 hours/day
+      - Developed Financial Payment Distribution Dashboard using Medicat BI
+        (Tableau-integrated platform), replacing manual report generation and
+        enabling real-time visualization of health charges and payment data of
+        12,000+ URI students for the Health Services administrative department
+  - role: Assistant Lecturer
+    org: Everest Engineering College, Pokhara University
+    start: 2021-11-01
+    end: 2024-08-31
+    summary: |
+      - Prepared and delivered lectures to 90+ students per semester across 5
+        semesters for CMP 482: Business Process and IT Strategy and CMP 484:
+        Social and Professional Issues in IT in BE IT program
+  - role: Co-Founder and CEO
+    org: Wonder Groups Pvt. Ltd.
+    start: 2020-11-01
+    end: 2024-06-30
+    summary: |
+      - Led implementation of School ERP Systems and network infrastructure for
+        12 government schools across Bagmati Province, Nepal under the President
+        Educational Reform Program
+      - Managed a cross-functional team of 4 engineers, coordinated with
+        government stakeholders, and conducted end-user training for 100+
+        faculty and administrative staffs
+  - role: Software Engineer
+    org: Cotiviti Nepal Pvt. Ltd.
+    start: 2018-06-01
+    end: 2020-09-30
+    summary: |
+      - Designed and maintained 10+ ETL pipelines using Oracle Data Integrator
+        (ODI) to optimize data integration workflows processing 10M+ US
+        healthcare insurance records
+      - Developed PL/SQL and Python scripts to automate extraction,
+        transformation, and loading of healthcare claims, RX, and eligibility
+        data
+      - Designed and managed data schemas in Oracle DB for 5+ clients, ensuring
+        data cleanliness, field mapping accuracy, and HIPAA compliance for
+        protected health information (PHI)
 
 skills:
-  - name: Technical Skills
+  - name: Machine Learning & AI
+    items:
+      - label: PyTorch
+        level: 5
+      - label: Deep Learning
+        level: 5
+      - label: Adversarial ML
+        level: 5
+      - label: LLMs & Transformers
+        level: 4
+      - label: LangChain / LangGraph
+        level: 4
+      - label: Hugging Face
+        level: 4
+  - name: Programming & Data
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
+      - label: SQL / PL-SQL
         level: 5
-      - label: Cloud Computing
+      - label: C / C++
         level: 4
-  - name: Research & Communication
+      - label: JavaScript
+        level: 3
+      - label: Bash / Linux
+        level: 4
+  - name: Systems & Tools
     items:
-      - label: Academic Writing
+      - label: ETL Pipelines
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
+      - label: Docker / Kubernetes
+        level: 3
+      - label: Git / GitHub
+        level: 5
+      - label: AWS
+        level: 3
+      - label: SLURM / HPC
         level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Published Paper — IEEE PAINE 2026
+    awarder: IEEE
+    date: "2026-01-01"
+    summary: |
+      First-authored paper "PatchGuard Lacks Robustness: Breaking State-Of-The-Art
+      Defect Detection Under New Norm Attacks" accepted at IEEE PAINE 2026.
     icon: hero/trophy
